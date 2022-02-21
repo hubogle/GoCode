@@ -53,12 +53,14 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	nums := []int{1, 3, 5, 6}
 	target := 7
-	result := searchInsert(nums, target)
+	result := search(nums, target)
 	fmt.Println(result)
 }
 
@@ -69,10 +71,10 @@ func searchInsert(nums []int, target int) int {
 		mid := l + ((r - l) >> 1)
 		if nums[mid] == target {
 			return mid
-		} else if nums[mid] >= target {
+		} else if nums[mid] > target {
 			r = mid - 1
 		} else if nums[mid] < target {
-			l = mid + 1
+			l = mid + 1 // mid 为最后一个小于的位置，mid + 1 后为插入的位置
 		}
 	}
 	return l // 返回插入位置
