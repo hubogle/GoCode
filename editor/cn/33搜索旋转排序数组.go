@@ -64,7 +64,7 @@ func search(nums []int, target int) int {
 		if nums[mid] == target {
 			return mid
 		}
-		if nums[0] <= nums[mid] { // 重点是如何判断左右区间有序
+		if nums[l] <= nums[mid] { // 重点是如何判断左右有序
 			if nums[l] <= target && target < nums[mid] {
 				r = mid - 1
 			} else {
