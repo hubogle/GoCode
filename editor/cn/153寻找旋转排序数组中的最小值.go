@@ -62,15 +62,15 @@ func main() {
 // leetcode submit region begin(Prohibit modification and deletion)
 func findMin(nums []int) int {
 	l, r := 0, len(nums)-1
-	for l < r {
+	for l < r { // 这里不能 l <= r 不然在左大右小时会陷入死循环, 这样将最小值限制在 left <= mid < right
 		mid := l + ((r - l) >> 1)
-		if nums[mid] < nums[r] { // 最小值在左边
+		if nums[mid] < nums[r] { // 左小右大，因为是向下取整，将 r = mid 终止循环
 			r = mid
 		} else {
-			l = mid + 1 // 最小值在右边
+			l = mid + 1 // 左大右小，将 l = mid + 1 取证书
 		}
 	}
-	return nums[l]
+	return nums[l] // 这里 l, r 都代表最小值, 因为 left = right 是循环终止条件
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
