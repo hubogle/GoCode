@@ -45,6 +45,7 @@ func findRepeatNumber(nums []int) int {
 // leetcode submit region end(Prohibit modification and deletion)
 
 /*
+题目特点：数组长度为 n ，元素范围为 `0 ~ n-1` 理想情况就是一个萝卜一个坑。
 解析思路：理想情况就是第 k 个位置存的值是 k，一直重复交换 num[k], num[num[k]] 时进行判断。
 🤔 外面一层遍历，内部判断逻辑需要用 while 循环，一直循环将交换的值 num[i] 存储到 i 位置
 
