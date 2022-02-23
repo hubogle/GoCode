@@ -23,6 +23,16 @@
 * [移除元素](editor/cn/27移除元素.go)
 * [长度最小的子数组](editor/cn/209长度最小的子数组.go)
 
+## 哈希表
+
+* [242有效的字母异位词](editor/cn/242有效的字母异位词.go)
+
 ## 剑指 Offer (第二版)
 
 * [剑指 Offer 03数组中重复的数字](editor/cn/剑指%20Offer%2003数组中重复的数字.go)
+* [剑指 Offer 04二维数组中的查找](editor/cn/剑指%20Offer%2004二维数组中的查找.go)
+* [剑指 Offer 05替换空格](editor/cn/剑指%20Offer%2005替换空格.go)
+* [剑指 Offer 06从尾到头打印链表](editor/cn/剑指%20Offer%2006从尾到头打印链表.go)
+* [剑指 Offer 10- II青蛙跳台阶问题](editor/cn/剑指%20Offer%2010-%20II青蛙跳台阶问题.go)
+* [剑指 Offer 10- I斐波那契数列](editor/cn/剑指%20Offer%2010-%20I斐波那契数列.go)
+* [剑指 Offer 11旋转数组的最小数字](editor/cn/剑指%20Offer%2011旋转数组的最小数字.go)
