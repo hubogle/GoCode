@@ -29,6 +29,7 @@
 * [两个数组的交集](editor/cn/349两个数组的交集.go)
 * [两数之和](editor/cn/1两数之和.go)
 * [三数之和](editor/cn/15三数之和.go)
+* [四数之和](editor/cn/18四数之和.go)
 
 ## 剑指 Offer (第二版)
 
