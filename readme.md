@@ -40,3 +40,4 @@
 * [剑指 Offer 10- II青蛙跳台阶问题](editor/cn/剑指%20Offer%2010-%20II青蛙跳台阶问题.go)
 * [剑指 Offer 10- I斐波那契数列](editor/cn/剑指%20Offer%2010-%20I斐波那契数列.go)
 * [剑指 Offer 11旋转数组的最小数字](editor/cn/剑指%20Offer%2011旋转数组的最小数字.go)
+* [剑指 Offer 57和为s的两个数字](editor/cn/剑指%20Offer%2057和为s的两个数字.go)
