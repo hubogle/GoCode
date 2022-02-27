@@ -5,10 +5,15 @@
 │  └── cn
 │     └── doc
 │        ├── content 问题描述
-│        └── note    笔记记录
+│        └── note    问题笔记
+├── note 经典算法笔记
 ├── main.go
 └── readme.md
 ```
+
+## 经典算法
+
+* [KMP](note/KMP.MD)
 
 ## 数组
 
@@ -43,6 +48,7 @@
 * [反转字符串 II](editor/cn/541反转字符串%20II.go)
 * [反转字符串里的单词](editor/cn/151翻转字符串里的单词.go)
 * [实现 strStr()](editor/cn/28实现%20strStr().go)
+* [重复的子字符串](editor/cn/459重复的子字符串.go)
 
 ## 剑指 Offer (第二版)
 
