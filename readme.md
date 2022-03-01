@@ -50,6 +50,10 @@
 * [实现 strStr()](editor/cn/28实现%20strStr().go)
 * [重复的子字符串](editor/cn/459重复的子字符串.go)
 
+## 栈和队列
+
+* [用栈实现队列](editor/cn/232用栈实现队列.go)
+
 ## 动态规划
 
 * [爬楼梯](editor/cn/70爬楼梯.go)
