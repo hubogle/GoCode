@@ -92,3 +92,4 @@
 * [剑指 Offer 39数组中出现次数超过一半的数字](editor/cn/剑指%20Offer%2039数组中出现次数超过一半的数字.go)
 * [剑指 Offer 47礼物的最大价值](editor/cn/剑指%20Offer%2047礼物的最大价值.go)
 * [剑指 Offer 18删除链表的节点](editor/cn/剑指%20Offer%2018删除链表的节点.go)
+* [剑指 Offer 22链表中倒数第k个节点](editor/cn/剑指%20Offer%2022链表中倒数第k个节点.go)
