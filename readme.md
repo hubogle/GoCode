@@ -98,3 +98,4 @@
 * [剑指 Offer 57 - II和为s的连续正数序列](editor/cn/剑指%20Offer%2057%20-%20II和为s的连续正数序列.go)
 * [剑指 Offer 58 - I翻转单词顺序](editor/cn/剑指%20Offer%2058%20-%20I翻转单词顺序.go)
 * [剑指 Offer 61扑克牌中的顺子](editor/cn/剑指%20Offer%2061扑克牌中的顺子.go)
+* [剑指 Offer 65不用加减乘除做加法](editor/cn/剑指%20Offer%2065不用加减乘除做加法.go)
