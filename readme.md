@@ -95,3 +95,4 @@
 * [剑指 Offer 22链表中倒数第k个节点](editor/cn/剑指%20Offer%2022链表中倒数第k个节点.go)
 * [剑指 Offer 25合并两个排序的链表](editor/cn/剑指%20Offer%2025合并两个排序的链表.go)
 * [剑指 Offer 52两个链表的第一个公共节点](editor/cn/剑指%20Offer%2052两个链表的第一个公共节点.go)
+* [剑指 Offer 57 - II和为s的连续正数序列](editor/cn/剑指%20Offer%2057%20-%20II和为s的连续正数序列.go)
