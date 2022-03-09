@@ -115,3 +115,4 @@
 * [剑指 Offer 32 - II从上到下打印二叉树 II](editor/cn/剑指%20Offer%2032%20-%20II从上到下打印二叉树%20II.go)
 * [剑指 Offer 32 - III从上到下打印二叉树 III](editor/cn/剑指%20Offer%2032%20-%20III从上到下打印二叉树%20III.go)
 * [剑指 Offer 55 - I二叉树的深度](editor/cn/剑指%20Offer%2055%20-%20I二叉树的深度.go)
+* [剑指 Offer 55 - II平衡二叉树](editor/cn/剑指%20Offer%2055%20-%20II平衡二叉树.go)
