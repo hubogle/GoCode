@@ -95,6 +95,7 @@
 * [分割回文串](editor/cn/131分割回文串.go)
 * [复原 IP 地址](editor/cn/93复原%20IP%20地址.go)
 * [子集](editor/cn/78子集.go)
+* [子集 II](editor/cn/90子集%20II.go)
 
 ## 动态规划
 
