@@ -90,6 +90,7 @@
 * [组合](editor/cn/77组合.go)
 * [组合总和 III](editor/cn/216组合总和%20III.go)
 * [电话号码的字母组合](editor/cn/17电话号码的字母组合.go)
+* [组合总和](editor/cn/39组合总和.go)
 
 ## 动态规划
 
