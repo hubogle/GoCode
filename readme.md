@@ -100,6 +100,7 @@
 * [全排列](editor/cn/46全排列.go)
 * [全排列 II](editor/cn/47全排列%20II.go)
 * [N 皇后](editor/cn/51N%20皇后.go)
+* [解数独](editor/cn/37解数独.go)
 
 ## 动态规划
 
