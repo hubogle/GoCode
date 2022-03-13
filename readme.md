@@ -98,6 +98,7 @@
 * [子集 II](editor/cn/90子集%20II.go)
 * [递增子序列](editor/cn/491递增子序列.go)
 * [全排列](editor/cn/46全排列.go)
+* [全排列 II](editor/cn/47全排列%20II.go)
 
 ## 动态规划
 
