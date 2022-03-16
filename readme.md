@@ -127,6 +127,7 @@
 * [不同路径](editor/cn/62不同路径.go)
 * [不同路径 II](editor/cn/63不同路径%20II.go)
 * [整数拆分](editor/cn/343整数拆分.go)
+* [不同的二叉搜索树](editor/cn/96不同的二叉搜索树.go)
 
 ## 剑指 Offer (第二版)
 
