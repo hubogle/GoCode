@@ -54,19 +54,17 @@ func main() {
 
 // leetcode submit region begin(Prohibit modification and deletion)
 // dp[i] = mix(dp[i-1], dp[i-2])
+// 前两步耗费体力，后两步不耗费体力
 func minCostClimbingStairs(cost []int) int {
 	n := len(cost)
+	dp := make([]int, n)
+	dp[0] = cost[0]
+	dp[1] = cost[1]
 	for i := 2; i < n; i++ {
-		cost[i] += min(cost[i-1], cost[i-2])
+		dp[i] = min(dp[i-1], dp[i-2]) + cost[i]
+		// dp[1], dp[0] = min(dp[0], dp[1])+cost[i], dp[1]
 	}
-	return min(cost[n-1], cost[n-2])
-	// dp := make([]int, n+1)
-	// dp[0] = cost[0]
-	// dp[1] = cost[1]
-	// for i := 2; i <= n; i++ {
-	// 	dp[i] = min(dp[i-1], dp[i-2]) + cost[i]
-	// }
-	// return dp[n]
+	return min(dp[n-1], dp[n-2])
 }
 
 func min(a, b int) int {
@@ -76,6 +74,7 @@ func min(a, b int) int {
 	return b
 }
 
+// 前面两步不耗费体力，后两步耗费体力
 func minCostClimbingStairs1(cost []int) int {
 	n := len(cost)
 	dp := make([]int, n+1)

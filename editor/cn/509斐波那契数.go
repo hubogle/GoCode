@@ -56,6 +56,20 @@ func fib(n int) int {
 	if n < 2 {
 		return n
 	}
+	dp := make([]int, 2) // dp 优化后只需要两个数值就可以
+	dp[1] = 1
+	for i := 2; i <= n; i++ {
+		dp[1], dp[0] = dp[1]+dp[0], dp[1]
+	}
+	return dp[1]
+}
+
+// leetcode submit region end(Prohibit modification and deletion)
+
+func fib1(n int) int {
+	if n < 2 {
+		return n
+	}
 	a, b := 1, 0
 	for i := 2; i <= n; i++ {
 		a, b = a+b, a
@@ -63,4 +77,15 @@ func fib(n int) int {
 	return a
 }
 
-// leetcode submit region end(Prohibit modification and deletion)
+// dp 解答
+func fib2(n int) int {
+	if n < 2 {
+		return n
+	}
+	dp := make([]int, n+1, n+1)
+	dp[1] = 1
+	for i := 2; i <= n; i++ {
+		dp[i] = dp[i-1] + dp[i-2]
+	}
+	return dp[n]
+}

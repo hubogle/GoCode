@@ -45,11 +45,23 @@ func main() {
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func climbStairs(n int) int {
+	if n < 2 {
+		return 1
+	}
+	dp := make([]int, 2)
+	dp[0] = 1
+	dp[1] = 1
+	for i := 2; i <= n; i++ {
+		dp[1], dp[0] = dp[0]+dp[1], dp[1]
+	}
+	return dp[1]
+}
+
+// leetcode submit region end(Prohibit modification and deletion)
+func climbStairs(n int) int {
 	a, b := 1, 1
 	for i := 2; i <= n; i++ {
 		a, b = a+b, a
 	}
 	return a
 }
-
-// leetcode submit region end(Prohibit modification and deletion)

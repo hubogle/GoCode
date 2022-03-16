@@ -66,6 +66,41 @@ func main() {
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func uniquePaths(m int, n int) int {
+	dp := make([]int, n)
+	for i := 0; i < n; i++ {
+		dp[i] = 1
+	} // dp 数组从二维压缩到一维
+	for row := 1; row < m; row++ {
+		for col := 1; col < n; col++ {
+			dp[col] += dp[col-1]
+		}
+	}
+	return dp[n-1]
+}
+
+// leetcode submit region end(Prohibit modification and deletion)
+
+// dp 初始化数组
+func uniquePaths1(m int, n int) int {
+	dp := make([][]int, m)
+	for i := 0; i < m; i++ {
+		dp[i] = make([]int, n)
+		dp[i][0] = 1
+	} // 从 0,0 到 m,0
+	for i := 0; i < n; i++ {
+		dp[0][i] = 1
+	}
+	for row := 1; row < m; row++ {
+		for col := 1; col < n; col++ {
+			dp[row][col] = dp[row-1][col] + dp[row][col-1]
+		}
+	}
+	fmt.Println(dp)
+	return dp[m-1][n-1]
+}
+
+// 也是 dp，只不过将 dp 边的初始化放在里面
+func uniquePaths2(m int, n int) int {
 	// dp[i][j] = dp[i-1][j] + dp[i][j-1]
 	dp := make([][]int, m)
 	for i := range dp {
@@ -85,20 +120,21 @@ func uniquePaths(m int, n int) int {
 	}
 	return dp[m-1][n-1]
 }
-func uniquePaths1(m int, n int) int {
-	dp := make([]int, n)
-	for i := 0; i < n; i++ {
-		dp[i] = 1
-	}
-	for i := 0; i < m; i++ {
-		for j := 0; j < n; j++ {
-			dp[j] += dp[j-1]
-		}
-	}
-	return dp[n-1]
-}
 
-// leetcode submit region end(Prohibit modification and deletion)
+// dfs 深度优先遍历，时间复杂度 O(2^(m+n+1) -1)
+func uniquePaths3(m int, n int) int {
+	var dfs func(row, col int) int
+	dfs = func(row, col int) int {
+		if row > m || col > n {
+			return 0
+		}
+		if row == m && col == n {
+			return 1
+		}
+		return dfs(row+1, col) + dfs(row, col+1)
+	}
+	return dfs(1, 1)
+}
 
 /*
 解题思路：动态规划 dp[i][j] = dp[i-1][j] + dp[i][j-1]

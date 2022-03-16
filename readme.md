@@ -120,12 +120,13 @@
 
 ## 动态规划
 
-* [爬楼梯](editor/cn/70爬楼梯.go)
 * [斐波那契数](editor/cn/509斐波那契数.go)
-* [最大子数组和](editor/cn/53最大子数组和.go)
+* [爬楼梯](editor/cn/70爬楼梯.go)
 * [使用最小花费爬楼梯](editor/cn/746使用最小花费爬楼梯.go)
+* [最大子数组和](editor/cn/53最大子数组和.go)
 * [不同路径](editor/cn/62不同路径.go)
 * [不同路径 II](editor/cn/63不同路径%20II.go)
+* [整数拆分](editor/cn/343整数拆分.go)
 
 ## 剑指 Offer (第二版)
 
