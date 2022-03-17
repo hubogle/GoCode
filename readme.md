@@ -166,3 +166,4 @@
 * [剑指 Offer 12矩阵中的路径](editor/cn/剑指%20Offer%2012矩阵中的路径.go)
 * [剑指 Offer 38字符串的排列](editor/cn/剑指%20Offer%2038字符串的排列.go)
 * [剑指 Offer 68 - II二叉树的最近公共祖先](editor/cn/剑指%20Offer%2068%20-%20II二叉树的最近公共祖先.go)
+* [剑指 Offer 42连续子数组的最大和](editor/cn/剑指%20Offer%2042连续子数组的最大和.go)
