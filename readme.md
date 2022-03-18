@@ -117,6 +117,7 @@
 * [分发饼干](editor/cn/455分发饼干.go)
 * [摆动序列](editor/cn/376摆动序列.go)
 * [最大子数组和](editor/cn/53最大子数组和.go)
+* [买卖股票的最佳时机](editor/cn/121买卖股票的最佳时机.go)
 * [买卖股票的最佳时机 II](editor/cn/122买卖股票的最佳时机%20II.go)
 * [跳跃游戏](editor/cn/55跳跃游戏.go)
 * [跳跃游戏 II](editor/cn/45跳跃游戏%20II.go)
