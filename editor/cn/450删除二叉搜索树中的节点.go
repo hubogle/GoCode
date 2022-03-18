@@ -92,18 +92,18 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 		}
 	}
 	if pre == nil { // 头节点为目标删除
-		return delete(root)
+		return deleteN(root)
 	}
 	if pre.Left != nil && pre.Left.Val == key {
-		pre.Left = delete(pre.Left)
+		pre.Left = deleteN(pre.Left)
 	}
 	if pre.Right != nil && pre.Right.Val == key {
-		pre.Right = delete(pre.Right)
+		pre.Right = deleteN(pre.Right)
 	}
 	return root
 }
 
-func delete(node *TreeNode) *TreeNode {
+func deleteN(node *TreeNode) *TreeNode {
 	if node == nil {
 		return node
 	}
