@@ -109,12 +109,14 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	for left != right {
 		if left == nil {
 			left = headB
+		} else {
+			left = left.Next
 		}
 		if right == nil {
 			right = headA
+		} else {
+			right = right.Next
 		}
-		left = left.Next
-		right = right.Next
 	}
 	return left
 }
@@ -123,6 +125,6 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 
 /*
 解题思路：两个链表拼接
-判断两个链表是否相交，则只需要当一个链表首先遍历完后，再遍历另一个链表。
+判断两个链表是否相交，如果遍历到 nil 则遍历另一个节点的头节点
 也就是两个移动的坐标同时遍历 A、B 链表，结果只有相交或同时到达尾节点 nil
 */
