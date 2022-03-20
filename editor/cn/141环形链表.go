@@ -105,6 +105,7 @@ func hasCycle1(head *ListNode) bool {
 快慢指针理解：
 初始化慢指针在 head，快指针在 head.Next
 慢指针每次移动一个，快指针每次移动两个。
+循环条件：low != fast 终止条件 fast.Next != nil && fast.Next.Next != nil
 
 为什么快慢初始化不在同一个，幻想head 前面有一个临时指针，for 循环下一步的情况就是 head 和 head.Next
 */
