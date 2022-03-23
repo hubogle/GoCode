@@ -185,3 +185,4 @@
 * [剑指 Offer 38字符串的排列](editor/cn/剑指%20Offer%2038字符串的排列.go)
 * [剑指 Offer 68 - II二叉树的最近公共祖先](editor/cn/剑指%20Offer%2068%20-%20II二叉树的最近公共祖先.go)
 * [剑指 Offer 42连续子数组的最大和](editor/cn/剑指%20Offer%2042连续子数组的最大和.go)
+* [剑指 Offer 50第一个只出现一次的字符](editor/cn/剑指%20Offer%2050第一个只出现一次的字符.go)
