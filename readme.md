@@ -195,3 +195,4 @@
 * [剑指 Offer 42连续子数组的最大和](editor/cn/剑指%20Offer%2042连续子数组的最大和.go)
 * [剑指 Offer 50第一个只出现一次的字符](editor/cn/剑指%20Offer%2050第一个只出现一次的字符.go)
 * [剑指 Offer 46把数字翻译成字符串](editor/cn/剑指%20Offer%2046把数字翻译成字符串.go)
+* [剑指 Offer 14- I剪绳子](editor/cn/剑指%20Offer%2014-%20I剪绳子.go)
