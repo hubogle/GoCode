@@ -42,7 +42,6 @@ func cuttingRope(n int) int {
 			dp[i] = max(dp[i], ans)
 		}
 	}
-	fmt.Println(dp)
 	return dp[n]
 }
 func max(x, y int) int {
