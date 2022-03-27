@@ -199,3 +199,4 @@
 * [剑指 Offer 14- II剪绳子 II](editor/cn/剑指%20Offer%2014-%20II剪绳子%20II.go)
 * [剑指 Offer 32 - I从上到下打印二叉树](editor/cn/剑指%20Offer%2032%20-%20I从上到下打印二叉树.go)
 * [剑指 Offer 24反转链表](editor/cn/剑指%20Offer%2024反转链表.go)
+* [剑指 Offer 33二叉搜索树的后序遍历序列](editor/cn/剑指%20Offer%2033二叉搜索树的后序遍历序列.go)
