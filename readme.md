@@ -198,3 +198,4 @@
 * [剑指 Offer 14- I剪绳子](editor/cn/剑指%20Offer%2014-%20I剪绳子.go)
 * [剑指 Offer 14- II剪绳子 II](editor/cn/剑指%20Offer%2014-%20II剪绳子%20II.go)
 * [剑指 Offer 32 - I从上到下打印二叉树](editor/cn/剑指%20Offer%2032%20-%20I从上到下打印二叉树.go)
+* [剑指 Offer 24反转链表](editor/cn/剑指%20Offer%2024反转链表.go)
