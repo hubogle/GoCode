@@ -200,3 +200,4 @@
 * [剑指 Offer 32 - I从上到下打印二叉树](editor/cn/剑指%20Offer%2032%20-%20I从上到下打印二叉树.go)
 * [剑指 Offer 24反转链表](editor/cn/剑指%20Offer%2024反转链表.go)
 * [剑指 Offer 33二叉搜索树的后序遍历序列](editor/cn/剑指%20Offer%2033二叉搜索树的后序遍历序列.go)
+* [剑指 Offer 26树的子结构](editor/cn/剑指%20Offer%2026树的子结构.go)
