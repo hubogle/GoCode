@@ -50,6 +50,26 @@ func main() {
 func lengthOfLongestSubstring(s string) int {
 	n := len(s)
 	cache := map[byte]int{}
+	left, right, ans := 0, 0, 0
+	for left < n {
+		if right < n && cache[s[right]] == 0 { // 右指针符合条件的话，一直右移
+			cache[s[right]]++
+			right++
+		} else { // 不符合条件，则左指针左移动，且从 cache 值减 1
+			cache[s[left]]--
+			left++
+		}
+		if right-left > ans {
+			ans = right - left
+		}
+	}
+	return ans
+}
+
+// leetcode submit region end(Prohibit modification and deletion)
+func lengthOfLongestSubstring1(s string) int {
+	n := len(s)
+	cache := map[byte]int{}
 	right := 0
 	ans := 0
 	for left := 0; left < len(s); left++ {
@@ -66,8 +86,6 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return ans
 }
-
-// leetcode submit region end(Prohibit modification and deletion)
 
 /*
 解题思路：滑动窗口
