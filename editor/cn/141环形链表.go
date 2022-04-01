@@ -71,19 +71,16 @@ func main() {
  */
 
 func hasCycle(head *ListNode) bool {
-	if head == nil || head.Next == nil {
-		return false
-	}
+	fast := head
 	low := head
-	fast := head.Next
-	for low != fast {
-		if fast == nil || fast.Next == nil {
-			return false
-		}
-		low = low.Next
+	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
+		low = low.Next
+		if fast == low {
+			return true
+		}
 	}
-	return true
+	return false
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
@@ -101,11 +98,26 @@ func hasCycle1(head *ListNode) bool {
 	return false
 }
 
-/*
-快慢指针理解：
-初始化慢指针在 head，快指针在 head.Next
-慢指针每次移动一个，快指针每次移动两个。
-循环条件：low != fast 终止条件 fast.Next != nil && fast.Next.Next != nil
+func hasCycle2(head *ListNode) bool {
+	if head == nil || head.Next == nil {
+		return false
+	}
+	low := head
+	fast := head.Next
+	for low != fast {
+		if fast == nil || fast.Next == nil {
+			return false
+		}
+		low = low.Next
+		fast = fast.Next.Next
+	}
+}
 
-为什么快慢初始化不在同一个，幻想head 前面有一个临时指针，for 循环下一步的情况就是 head 和 head.Next
+/*
+	快慢指针理解：
+	初始化慢指针在 head，快指针在 head.Next
+	慢指针每次移动一个，快指针每次移动两个。
+	循环条件：low != fast 终止条件 fast.Next != nil && fast.Next.Next != nil
+
+	为什么快慢初始化不在同一个，幻想head 前面有一个临时指针，for 循环下一步的情况就是 head 和 head.Next
 */
