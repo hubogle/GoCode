@@ -213,3 +213,4 @@
 * [剑指 Offer 24反转链表](editor/cn/剑指%20Offer%2024反转链表.go)
 * [剑指 Offer 33二叉搜索树的后序遍历序列](editor/cn/剑指%20Offer%2033二叉搜索树的后序遍历序列.go)
 * [剑指 Offer 26树的子结构](editor/cn/剑指%20Offer%2026树的子结构.go)
+* [剑指 Offer 53 - I在排序数组中查找数字 I](editor/cn/剑指%20Offer%2053%20-%20I在排序数组中查找数字%20I.go)
